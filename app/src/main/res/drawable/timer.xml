@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/clock">
+    <target
+        android:animation="@anim/second_timer"
+        android:name="seconds"/>
+    <target
+        android:animation="@anim/minute_timer"
+        android:name="minutes"/>
+
+</animated-vector>
